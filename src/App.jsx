@@ -1,10 +1,18 @@
 import { useEffect, useState } from "react";
 import { Graphics, TabletGraphic } from "./assets/constant";
 import "./App.css";
-import kidImg from '../public/kidImg.png';
+import kidImg from '../public/kidImg.jpg';
 import bannerImg from '../public/bannerImg.png'
 import video from '../public/video.mp4';
 import bannerHd from '../public/bannerHd.png';
+import heart from '../public/heart.svg';
+import divisionIcon from '../public/divisionIcon.svg';
+import mega from '../public/CoinMarketCapLogo.png';
+import gecko from '../public/CoingeckoLogo.png';
+import dex from '../public/DextoolsLogo.png';
+
+
+
 function App() {
   const [q1, setq1] = useState(false);
   const [q2, setq2] = useState(false);
@@ -171,6 +179,37 @@ function App() {
                     </svg>
                   </div>
                 </a>
+                <a
+                  href="https://coinmarketcap.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="transition-all ease-in-out duration-500"
+                >
+                  <div className="bg-[#DE8B09] h-[50px] w-[50px] rounded-full flex items-center justify-center">
+                    <img src={mega} style={{opacity: 0.3,maxWidth: '57%'}}/>
+                  </div>
+                </a>
+                <a
+                  href="https://www.coingecko.com/en/coins/coq-inu"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="transition-all ease-in-out duration-500"
+                >
+                  <div className="bg-[#DE8B09] h-[50px] w-[50px] rounded-full flex items-center justify-center">
+                    <img src={gecko} alt="" style={{opacity: 0.3,maxWidth: '57%'}}/>
+                  </div>
+                </a>
+                <a
+                  href="https://www.dextools.io/app/en/ether/pair-explorer/0xe4b8583ccb95b25737c016ac88e539d0605949e8"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="transition-all ease-in-out duration-500"
+                >
+                  <div className="bg-[#DE8B09] h-[50px] w-[50px] rounded-full flex items-center justify-center">
+                    <img src={dex} alt="" style={{opacity: 0.3,maxWidth: '57%'}}/>
+                  </div>
+                </a>
+                
               </div>
             </div>
           
@@ -189,7 +228,23 @@ function App() {
                 loop
                 src={video}
               ></video> */}
-              <div className="flex justify-center items-center h-full">
+              <div className="text-center h-full">
+                <div className="boxes">
+                  <div className="box" >
+                    <img src={divisionIcon} alt="" className="boximg m-auto mb-3"  />
+                    <h3 className="text-white font-poppins text-[1.375rem] leading-[1.625rem] sm:text-[1.625rem] sm:leading-[1.95rem] md:text-[2rem]  md:leading-[2.4rem] font-semibold text-center">
+                    TRANSPARENCY
+                  </h3>
+                  <h5 style={{fontSize:'15px', color:'#ffffffcc', fontWeight:'bold'}} className="text-denter">No Taxes, no whales</h5>
+                  </div>
+                  <div className="box" >
+                    <img src={heart} alt="" className="boximg m-auto mb-3"  />
+                    <h3 className="text-white font-poppins text-[1.375rem] leading-[1.625rem] sm:text-[1.625rem] sm:leading-[1.95rem] md:text-[2rem]  md:leading-[2.4rem] font-semibold text-center">
+                    COMMUNITY DRIVEN
+                  </h3>
+                  <h5 style={{fontSize:'13px', color:'#ffffffcc'}} className="text-denter">LP Burned, 100% community driven</h5>
+                  </div>
+                </div>
                 <div>
                   <h3 className="text-white font-poppins text-[1.375rem] leading-[1.625rem] sm:text-[1.625rem] sm:leading-[1.95rem] md:text-[2rem]  md:leading-[2.4rem] font-semibold text-center">
                     <span className="text-primary">TOTAL</span> SUPPLY
@@ -203,8 +258,6 @@ function App() {
           </div>
         </div>
 
-
-
        <div className="  ">   
         <div className="text-center pt-10 pb-4">
           <h3 className="font-bold text-[2rem] leading-[2.5rem] sm:text-[3.125rem] sm:leading-[3.906rem] md:text-[5rem] md:leading-[6.25rem] outline-title font-poppins">
@@ -214,11 +267,10 @@ function App() {
         <div className="flex items-center justify-center bg-center bg-cover flex-column md:mt-[5px] buyImg">
           <img src={kidImg} alt="" style={{borderRadius:'10px', width:'100%'}}/>
         </div>
-        <div className=" textCenter md:space-x-1 pt-2 maxWidth mx-auto p-4">
-                 
-                 <p className="font-roboto text-base leading-6 uppercase text-white tracking-[0.1rem] mb-4 mt-5">
-                 WHISPERS OF COGNITIVE DECLINE ECHO THROUGH THE HALLS OF POWER, LEAVING MANY TO WONDER IF THE OVAL OFFICE HAS TURNED INTO A SENIOR CENTER WITH EXECUTIVE PRIVILEGES. LITTLE DO THE PUBLIC KNOW, PRESIDENT JOLD BIDEN IS SECRETLY TAKING ORDERS FROM THE PUPPET MASTER HIMSELF, BARACK OBAMA. THE REAL POWER BEHIND THE PODIUM, OBAMA PULLS THE STRINGS WHILE BIDEN ATTEMPTS TO NAVIGATE THE COMPLEXITIES OF INTERNATIONAL DIPLOMACY LIKE A GPS WITHOUT A SIGNAL. AS THE NATION COLLECTIVELY WONDERS WHY THE PRESIDENT SEEMS TO BE PLAYING A GAME OF POLITICAL MARCO POLO, LITTLE DO THEY SUSPECT THE HIDDEN CHOREOGRAPHER ORCHESTRATING THE PRESIDENTIAL PUPPET SHOW.
-                 </p>
+        <div className=" textCenter md:space-x-1 pt-0 maxWidth mx-auto p-4">
+          <p className="font-roboto text-base leading-6 uppercase text-white tracking-[0.1rem] mb-4 ">
+          WHISPERS OF COGNITIVE DECLINE ECHO THROUGH THE HALLS OF POWER, LEAVING MANY TO WONDER IF THE OVAL OFFICE HAS TURNED INTO A SENIOR CENTER WITH EXECUTIVE PRIVILEGES. LITTLE DO THE PUBLIC KNOW, PRESIDENT JOLD BIDEN IS SECRETLY TAKING ORDERS FROM THE PUPPET MASTER HIMSELF, BARACK OBAMA. THE REAL POWER BEHIND THE PODIUM, OBAMA PULLS THE STRINGS WHILE BIDEN ATTEMPTS TO NAVIGATE THE COMPLEXITIES OF INTERNATIONAL DIPLOMACY LIKE A GPS WITHOUT A SIGNAL. AS THE NATION COLLECTIVELY WONDERS WHY THE PRESIDENT SEEMS TO BE PLAYING A GAME OF POLITICAL MARCO POLO, LITTLE DO THEY SUSPECT THE HIDDEN CHOREOGRAPHER ORCHESTRATING THE PRESIDENTIAL PUPPET SHOW.
+          </p>
        </div>
         <div className="flex items-center justify-center ">
         <a href="https://raydiumswap.io" className="btnGreen" target="_blank">Buy on RaydiumSwap</a>
@@ -437,6 +489,36 @@ function App() {
                   </svg>
                 </div>
               </a>
+              <a
+                  href="https://coinmarketcap.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="transition-all ease-in-out duration-500"
+                >
+                  <div className="bg-[#DE8B09] h-[50px] w-[50px] rounded-full flex items-center justify-center">
+                    <img src={mega} style={{opacity: 0.3,maxWidth: '57%'}}/>
+                  </div>
+                </a>
+                <a
+                  href="https://www.coingecko.com/en/coins/coq-inu"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="transition-all ease-in-out duration-500"
+                >
+                  <div className="bg-[#DE8B09] h-[50px] w-[50px] rounded-full flex items-center justify-center">
+                    <img src={gecko} alt="" style={{opacity: 0.3,maxWidth: '57%'}}/>
+                  </div>
+                </a>
+                <a
+                  href="https://www.dextools.io/app/en/ether/pair-explorer/0xe4b8583ccb95b25737c016ac88e539d0605949e8"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="transition-all ease-in-out duration-500"
+                >
+                  <div className="bg-[#DE8B09] h-[50px] w-[50px] rounded-full flex items-center justify-center">
+                    <img src={dex} alt="" style={{opacity: 0.3,maxWidth: '57%'}}/>
+                  </div>
+                </a>
             </div>
           </div>
         </div>
