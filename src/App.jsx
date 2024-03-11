@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { Graphics, TabletGraphic } from "./assets/constant";
 import "./App.css";
-import tate from '../public/tate.png';
 import kidImg from '../public/kidImg.png';
 import bannerImg from '../public/newtokenimage.jpg'
 import video from '../public/video.mp4'
