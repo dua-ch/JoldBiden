@@ -32,8 +32,9 @@ function App() {
         <div className="max-w-6xl mx-auto px-2.5">
           <div className="flex flex-col sm:flex-row items-center justify-between space-y-3 sm:space-y-0">
             <a href="/">
-              <h1 className="font-bold font-poppins text-white text-[1.875rem] leading-[2.344rem] sm:text-[2.188rem] sm:leading-[2.734rem] md:text-[2.625rem] md:leading-[3.281rem]">
-              Baby Andrew Tate
+            <h1 className="font-bold font-poppins text-white text-[1.875rem] leading-[2.344rem] sm:text-[2.188rem] sm:leading-[2.734rem] md:text-[2.625rem] md:leading-[3.281rem]">
+              J<span style={{color:'rgb(232, 27, 35)'}}>old</span> Biden
+
               </h1>
             </a>
             <nav>
@@ -86,18 +87,37 @@ function App() {
       </header>
       <main>
         {/* Hero  */}
-        <section className="bg-[url(/newtokenimage.jpg)] bg-cover bg-center bg-no-repeat h-screen sm:h-[120vh] overlay">
-          <div className="h-full flex items-end ">
-            {/* <div style={{maxHeight:'500px', margin:'30px auto 0', width:'100%', borderRadius:'50%'}}>
-            <img src={bannerImg} alt="" style={{ width:'100%'}}/>
-            </div> */}
-            <div className="bg-black w-full" style={{position:'relative', zIndex:'1'}} > 
-              <article className="max-w-lg sm:max-w-xl mx-auto">
-                <h3 className="text-white text-center text-[1.875rem] leading-[2.344rem] sm:text-[2.188rem] sm:leading-[2.734rem] md:text-[2.625rem] md:leading-[3.281rem] font-poppins font-bold">
-                Baby Andrew Tate
+        <section style={{paddingTop:'50px'}}>
+        
+            <div style={{height:'500px'}} className="minHeight">
+            <img src='../public/bannerImg.png' alt="" style={{ width:'100%', height:'100%', objectFit:'cover'}}/>
+            </div>
+            <div className=" w-full" style={{position:'relative', zIndex:'1',marginTop:'-50px' , padding:'0 20px'}} > 
+              <article className="max-w-xl sm:max-w-xl mx-auto">
+                 <img src="../public/bannerHd.png" alt="" style={{ width:'100%'}}/>
+                 <div className=" textCenter md:space-x-1 pt-2" id="about">
+                 
+                 <p className="font-roboto text-base leading-6 uppercase text-white tracking-[0.1rem] mb-4 mt-5">
+                 MEET PRESIDENT JOLD BIDEN, THE ACCIDENTAL STAR OF THE POLITICAL CIRCUS, WHO SOMEHOW STUMBLED INTO THE PRESIDENCY AT THE TENDER AGE OF 78. NOW, AT 81 AND THREE YEARS INTO HIS TENURE, HIS CRITICS ARE EXCHANGING CONCERNED GLANCES FASTER THAN HE CAN MUMBLE HIS WAY THROUGH A SENTENCE.
+
+                 </p>
+                 <p className="font-roboto text-base leading-6 uppercase text-white tracking-[0.1rem]  mb-4">
+                 PRESIDENT JOLD BIDEN, AFFECTIONATELY DUBBED “CHEATED-IN-CHIEF,” HAS TURNED THE OVAL OFFICE INTO A REAL-LIFE OBSTACLE COURSE, WITH FREQUENT STUTTERS THAT MAKE IT SEEM LIKE HIS SPEECHES ARE SPONSORED BY THE DEPARTMENT OF TONGUE-TWISTERS.
+                 </p>
+                 <p className="font-roboto text-base leading-6 uppercase text-white tracking-[0.1rem]  mb-4">
+                 HIS PENCHANT FOR SUDDEN FALLS HAS SPARKED A NEW WHITE HOUSE TRADITION: THE PRESIDENTIAL STUMBLE COUNT.
+
+                 </p>
+                 <p className="font-roboto text-base leading-6 uppercase text-white tracking-[0.1rem]">
+                 CRITICS ARGUE THAT HIS COGNITIVE DECLINE IS TRANSFORMING THE WEST WING INTO A RETIREMENT COMMUNITY, COMPLETE WITH AFTERNOON NAPS AND CONFUSED STAFF TRYING TO DECIPHER EXECUTIVE ORDERS.
+                 </p>
+               </div>
+                <h3 className="text-white text-center text-[1.875rem] leading-[2.344rem] sm:text-[2.188rem] sm:leading-[2.734rem] md:text-[2.625rem] md:leading-[3.281rem] font-poppins font-bold mt-10">
+                J<span style={{color:'#E81B23'}}>old</span> Biden
+
                 </h3>
               </article>
-              <div className="max-w-xl mx-auto mt-3 px-5 sm:px-0">
+              <div className="max-w-xl mx-auto mt-3  sm:px-0">
                 <div className="bg-white py-2 rounded-tr-[10px] rounded-tl-[10px] flex items-center justify-center">
                   <div className="group relative transition-all ease-in-out duration-300 inline-block space-x-6 font-poppins rounded-[5px] text-base leading-[1rem] text-black font-bold px-4 py-3 break-all text-center lg:text-left">
                     {/* SOL{" "} */}
@@ -108,8 +128,8 @@ function App() {
                     > 
                       {" "}
                       Contract Address:
-                      <br />6oTxdPD8qUfbXeugsdgRx6ZXrTVAsbZcUGroRBM6eEBK
-                      <br />Ticker:
+                      {/* <br />6oTxdPD8qUfbXeugsdgRx6ZXrTVAsbZcUGroRBM6eEBK */}
+                      <br />Ticker:BIDEN
                     </button>
                     <span className="text-sm font-sans font-normal px-2 absolute left-0 -top-5 hidden group-hover:inline-block bg-gray-800 border border-black rounded-sm text-white">
                       {copy ? "copied" : "Click to Copy"}
@@ -117,12 +137,12 @@ function App() {
                   </div>
                 </div>
                 <div className="bg-primary rounded-br-[10px] rounded-bl-[10px]">
-                  <p className="text-center text-white py-1 font-poppins text-xl leading-6 uppercase">TATE</p>
+                  <p className="text-center text-white py-1 font-poppins text-xl leading-6 uppercase"></p>
                 </div>
               </div>
               <div className="flex items-center justify-center mt-8 space-x-1.5">
                 <a
-                  href="https://t.me/BabyAndrewTate"
+                  href="https://t.me/joldbiden"
                   target="_blank"
                   rel="noreferrer"
                   className="transition-all ease-in-out duration-500"
@@ -137,7 +157,7 @@ function App() {
                   </div>
                 </a>
                 <a
-                  href="https://twitter.com/babyandrewtate"
+                  href="https://twitter.com/JoldBiden"
                   target="_blank"
                   rel="noreferrer"
                   className="transition-all ease-in-out duration-500"
@@ -153,308 +173,22 @@ function App() {
                 </a>
               </div>
             </div>
-          </div>
+          
         </section>
         {/* End Hero  */}
-        <section className="pt-8 sm:pt-16" id="about">
-          <div className="max-w-2xl px-4 md:p-1.5 mx-auto">
-            <div className="flex flex-col gap-4 md:gap-5">
-              {/*<div>
-                <div className="md:flex md:items-center md:space-x-1">
-                  <svg
-                    width="17"
-                    height="17"
-                    viewBox="0 0 17 17"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="float-left md:float-none"
-                  >
-                    <g clipPath="url(#clip0_2_145)">
-                      <g clipPath="url(#clip1_2_145)">
-                        <g clipPath="url(#clip2_2_145)">
-                          <path
-                            d="M9.88776 2.42873C9.88776 5.12873 8.25799 10.5767 4.99887 10.5767C1.73976 10.5767 0.109985 5.12918 0.109985 2.42873C0.109985 -0.762377 3.77665 0.798956 4.99887 0.798956C6.20421 0.798956 9.88776 -0.779266 9.88776 2.42873Z"
-                            fill="#A6D388"
-                          />
-                          <path
-                            d="M2.55438 5.68779C4.59127 6.91001 5.81349 6.91001 7.44327 5.68779C8.66549 4.87312 6.6286 8.53979 4.99882 8.53979C3.36905 8.53979 1.33216 4.87312 2.55438 5.68779ZM1.73927 4.05845C1.67793 4.05845 1.61571 4.04468 1.55705 4.01534C1.35616 3.9149 1.27438 3.67001 1.37527 3.46868C1.65793 2.90334 2.23438 2.51312 2.84327 2.47534C3.21616 2.45445 3.93571 2.54423 4.52282 3.42512C4.64771 3.61223 4.59705 3.86512 4.40993 3.99001C4.22194 4.1149 3.96949 4.06423 3.84505 3.87712C3.57394 3.47045 3.24282 3.26645 2.89393 3.28868C2.56949 3.30868 2.25927 3.52245 2.10416 3.83356C2.0326 3.97579 1.8886 4.05845 1.73927 4.05845ZM8.25838 4.05845C8.10905 4.05845 7.96505 3.97579 7.89393 3.83312C7.73838 3.52245 7.4286 3.30868 7.10416 3.28823C6.75927 3.26956 6.4246 3.47001 6.15305 3.87668C6.02771 4.06423 5.77527 4.11445 5.58816 3.98956C5.40105 3.86468 5.35038 3.61179 5.47527 3.42468C6.06193 2.54334 6.77794 2.45312 7.15482 2.4749C7.76371 2.51268 8.34016 2.9029 8.62282 3.46823C8.72371 3.66956 8.64193 3.91401 8.4406 4.0149C8.38193 4.04468 8.31971 4.05845 8.25838 4.05845Z"
-                            fill="#5C913B"
-                          />
-                          <path
-                            d="M16.1099 8.24201C16.1099 10.9416 14.4802 16.39 11.221 16.39C7.96193 16.39 6.33215 10.9416 6.33215 8.24201C6.33215 5.05045 9.99882 6.61223 11.221 6.61223C12.4268 6.61223 16.1099 5.03356 16.1099 8.24201Z"
-                            fill="#CBB7EA"
-                          />
-                          <path
-                            d="M13.2211 13.7904C11.6655 12.8344 10.7766 12.8344 9.22109 13.7904C7.99887 14.6051 9.59131 11.8273 11.2211 11.8273C12.8509 11.8273 14.4433 14.6051 13.2211 13.7904ZM7.66553 10.1309C7.6042 10.1309 7.54198 10.1171 7.48331 10.0877C7.28198 9.9873 7.20064 9.74241 7.30109 9.54108C7.6122 8.9193 8.36953 8.43441 9.10153 8.38908C9.76331 8.34508 10.3526 8.64908 10.7451 9.23841C10.87 9.42597 10.8193 9.67841 10.6322 9.80375C10.4451 9.92864 10.1922 9.87797 10.0673 9.69086C9.83531 9.3433 9.52731 9.18064 9.1522 9.20241C8.65398 9.23308 8.19042 9.58419 8.02953 9.90597C7.95842 10.0482 7.81442 10.1309 7.66553 10.1309ZM14.7771 10.1309C14.6273 10.1309 14.4838 10.0482 14.4122 9.90508C14.2522 9.58375 13.7886 9.23308 13.2904 9.20197C12.9162 9.18108 12.6064 9.34241 12.3749 9.69041C12.2504 9.87752 11.9966 9.92819 11.81 9.8033C11.6229 9.67841 11.5722 9.42553 11.6971 9.23797C12.09 8.64864 12.6695 8.34508 13.3411 8.38864C14.0735 8.43441 14.8309 8.9193 15.1415 9.54108C15.242 9.74197 15.1602 9.98686 14.9589 10.0873C14.9002 10.1171 14.8384 10.1309 14.7771 10.1309Z"
-                            fill="#9266CC"
-                          />
-                        </g>
-                      </g>
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_2_145">
-                        <rect width="16" height="16" fill="white" transform="translate(0.109985 0.390015)" />
-                      </clipPath>
-                      <clipPath id="clip1_2_145">
-                        <rect width="16" height="16" fill="white" transform="translate(0.109985 0.390015)" />
-                      </clipPath>
-                      <clipPath id="clip2_2_145">
-                        <rect width="16" height="16" fill="white" transform="translate(0.109985 0.390015)" />
-                      </clipPath>
-                    </defs>
-                  </svg>
-                  
-                </div>
-              
-              </div>*/}
-              <div className="centerimg">
-                 <img src={tate} alt="" />
-              </div>
-              <div>
-                <div className="md:flex md:items-center textCenter md:space-x-1 pt-2">
-                 
-                  <p className="font-roboto text-base leading-6 uppercase text-white tracking-[0.1rem]">
-                    THE BABY ANDREW TATE MEME TOKEN IS A PROJECT DEVELOPED AND
-                    OWNED BY THE COMMUNITY. OUR GOAL IS TO ESTABLISH A NEW
-                    BENCHMARK FOR QUALITY IN THE CRYPTO SPACE. A COLLECTIVE OF
-                    INDIVIDUALS SHARING COMMON IDEALS HAS COLLABORATED TO SET A
-                    GOLD STANDARD FOR COMMUNITY FEATURES. BOTH BUY AND SELL ORDERS
-                    INCUR 0% TAX.
-                  </p>
-                </div>
-               {/* <p className="font-roboto text-base leading-6 uppercase text-white tracking-[0.1rem]">
-                  PLACE! OUR TOKEN COMBINES THE ALLURE OF SQUID GAME WITH THE POTENTIAL FOR LUCRATIVE GAINS ON THE
-                  SOLANA BLOCKCHAIN. DON&apos;T MISS OUT ON THIS UNIQUE ADVENTURE IN THE CRYPTO WORLD.
-                </p>*/}
-              </div>
-            </div>
-            <div className="mt-6">
-              {/*<div className="md:flex md:items-center md:space-x-1">
-                <svg
-                  width="17"
-                  height="17"
-                  viewBox="0 0 17 17"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="flex-none float-left md:float-none"
-                >
-                  <g clipPath="url(#clip0_2_165)">
-                    <g clipPath="url(#clip1_2_165)">
-                      <g clipPath="url(#clip2_2_165)">
-                        <path
-                          d="M8.10999 0.469971C3.69176 0.469971 0.109985 4.05175 0.109985 8.46997C0.109985 12.8882 3.69176 16.47 8.10999 16.47C12.5282 16.47 16.11 12.8882 16.11 8.46997C16.11 4.05175 12.5282 0.469971 8.10999 0.469971ZM1.0211 8.91442H2.79132C2.83221 10.0282 3.02332 11.0793 3.33754 12.0255H1.95799C1.42154 11.0997 1.09132 10.0437 1.0211 8.91442ZM8.55443 4.02553V1.39486C9.77532 1.58864 10.8487 2.57486 11.5762 4.02553H8.55443ZM11.9549 4.91442C12.29 5.84019 12.4967 6.89664 12.5402 8.02553H8.55443V4.91442H11.9549ZM7.66554 1.39486V4.02553H4.64376C5.37087 2.57486 6.44465 1.58864 7.66554 1.39486ZM7.66554 4.91442V8.02553H3.67976C3.72332 6.89664 3.92999 5.84019 4.2651 4.91442H7.66554ZM2.79176 8.02553H1.0211C1.09132 6.89664 1.42154 5.84019 1.95754 4.91442H3.3371C3.02376 5.86064 2.83265 6.91219 2.79176 8.02553ZM3.67976 8.91442H7.66554V12.0255H4.2651C3.92999 11.0997 3.72332 10.0437 3.67976 8.91442ZM7.66554 12.9144V15.5451C6.44465 15.3509 5.37087 14.3651 4.64376 12.9144H7.66554ZM8.55443 15.5451V12.9144H11.5767C10.8491 14.3651 9.77532 15.3509 8.55443 15.5451ZM8.55443 12.0255V8.91442H12.5407C12.4967 10.0437 12.2904 11.0997 11.9553 12.0255H8.55443ZM13.4287 8.91442H15.1984C15.1287 10.0437 14.7984 11.0997 14.262 12.0255H12.8824C13.1962 11.0793 13.3873 10.0282 13.4287 8.91442ZM13.4287 8.02553C13.3873 6.91219 13.1962 5.86064 12.8824 4.91442H14.262C14.7984 5.84019 15.1287 6.89664 15.1984 8.02553H13.4287ZM13.6562 4.02553H12.5438C12.2251 3.31264 11.83 2.68553 11.3798 2.1593C12.2638 2.61797 13.0384 3.2553 13.6562 4.02553ZM4.84021 2.1593C4.38954 2.68553 3.99443 3.31264 3.67576 4.02553H2.56376C3.18154 3.2553 3.95621 2.61842 4.84021 2.1593ZM2.56376 12.9144H3.67621C3.99443 13.6273 4.38954 14.2544 4.84021 14.7802C3.95621 14.3215 3.18154 13.6846 2.56376 12.9144ZM11.3798 14.7802C11.8304 14.254 12.2251 13.6273 12.5438 12.9144H13.6562C13.0384 13.6846 12.2638 14.3215 11.3798 14.7802Z"
-                          fill="#3B88C3"
-                        />
-                      </g>
-                    </g>
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_2_165">
-                      <rect width="16" height="16" fill="white" transform="translate(0.109985 0.469971)" />
-                    </clipPath>
-                    <clipPath id="clip1_2_165">
-                      <rect width="16" height="16" fill="white" transform="translate(0.109985 0.469971)" />
-                    </clipPath>
-                    <clipPath id="clip2_2_165">
-                      <rect width="16" height="16" fill="white" transform="translate(0.109985 0.469971)" />
-                    </clipPath>
-                  </defs>
-                </svg>
-                <p className="font-roboto text-base leading-6 uppercase text-white tracking-[0.1rem]">
-                  JOIN US AND BE PART OF THE SQUID GAME-INSPIRED REVOLUTION ON
-                </p>
-              </div>*/}
-              {/*<div className="flex flex-wrap items-center space-x-1">
-                <p className="font-roboto text-base leading-6 uppercase text-white tracking-[0.1rem]">
-                  THE SOLANA CHAIN. IT&apos;S NOT JUST A TOKEN; IT&apos;S AN EXPERIENCE!
-                </p>
-                <div className="flex items-center space-x-2 flex-none">
-                  <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clipPath="url(#clip0_2_172)">
-                      <g clipPath="url(#clip1_2_172)">
-                        <path
-                          d="M0.924438 8.02554L4.47999 4.91443L11.5911 5.35887L12.0355 12.47L8.92444 16.0255C8.92444 16.0255 8.92488 13.3593 6.25777 10.6922C3.59066 8.0251 0.924438 8.02554 0.924438 8.02554Z"
-                          fill="#A0041E"
-                        />
-                        <path
-                          d="M0.912484 16.0255C0.912484 16.0255 0.896484 12.4793 2.23915 11.1366C3.58182 9.79392 7.14671 9.88636 7.14671 9.88636C7.14671 9.88636 7.14626 13.3588 5.81293 14.6921C4.4796 16.0255 0.912484 16.0255 0.912484 16.0255Z"
-                          fill="#FFAC33"
-                        />
-                        <path
-                          d="M4.47956 14.2477C5.4614 14.2477 6.25734 13.4518 6.25734 12.4699C6.25734 11.4881 5.4614 10.6921 4.47956 10.6921C3.49772 10.6921 2.70178 11.4881 2.70178 12.4699C2.70178 13.4518 3.49772 14.2477 4.47956 14.2477Z"
-                          fill="#FFCC4D"
-                        />
-                        <path
-                          d="M16.4795 0.469971C16.4795 0.469971 12.0351 0.469971 6.70174 4.91441C4.03507 7.13664 4.03507 11.1366 4.92396 12.0255C5.81285 12.9144 9.81285 12.9144 12.0351 10.2477C16.4795 4.91441 16.4795 0.469971 16.4795 0.469971Z"
-                          fill="#55ACEE"
-                        />
-                        <path
-                          d="M12.4796 2.69214C11.7582 2.69214 11.1404 3.12369 10.8613 3.74103C11.0844 3.64014 11.3302 3.58103 11.5907 3.58103C12.5724 3.58103 13.3684 4.37703 13.3684 5.35881C13.3684 5.61925 13.3093 5.86503 13.2089 6.08769C13.8262 5.80903 14.2573 5.19125 14.2573 4.46992C14.2573 3.48814 13.4613 2.69214 12.4796 2.69214Z"
-                          fill="black"
-                        />
-                        <path
-                          d="M4.03552 12.9144C4.03552 12.9144 4.03552 11.1366 4.47997 10.6921C4.92441 10.2477 10.2582 5.80369 10.7022 6.24769C11.1462 6.69169 6.70174 12.0255 6.2573 12.4699C5.81286 12.9144 4.03552 12.9144 4.03552 12.9144Z"
-                          fill="#A0041E"
-                        />
-                      </g>
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_2_172">
-                        <rect width="16" height="16" fill="white" transform="translate(0.47998 0.469971)" />
-                      </clipPath>
-                      <clipPath id="clip1_2_172">
-                        <rect width="16" height="16" fill="white" transform="translate(0.47998 0.469971)" />
-                      </clipPath>
-                    </defs>
-                  </svg>
-                  <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clipPath="url(#clip0_2_180)">
-                      <g clipPath="url(#clip1_2_180)">
-                        <g clipPath="url(#clip2_2_180)">
-                          <path
-                            d="M1.64673 7.07267L1.64495 7.07178C1.64495 7.07178 0.733398 12.5904 0.733398 13.386C0.733398 14.1967 1.33029 14.8536 2.06673 14.8536C2.36895 14.8536 2.64451 14.7389 2.86807 14.5522L7.38629 10.5798L1.64673 7.07267ZM15.7312 7.07267L15.733 7.07178C15.733 7.07178 16.6445 12.5904 16.6445 13.386C16.6445 14.1967 16.0476 14.8536 15.3112 14.8536C15.009 14.8536 14.7334 14.7389 14.5098 14.5522L9.99162 10.5798L15.7312 7.07267Z"
-                            fill="#31373D"
-                          />
-                          <path
-                            d="M12.2443 11.1593C14.3307 11.1593 16.0221 9.46795 16.0221 7.38154C16.0221 5.29513 14.3307 3.60376 12.2443 3.60376C10.1579 3.60376 8.46655 5.29513 8.46655 7.38154C8.46655 9.46795 10.1579 11.1593 12.2443 11.1593Z"
-                            fill="#14171A"
-                          />
-                          <path
-                            d="M5.13325 11.1593C7.21966 11.1593 8.91102 9.46795 8.91102 7.38154C8.91102 5.29513 7.21966 3.60376 5.13325 3.60376C3.04684 3.60376 1.35547 5.29513 1.35547 7.38154C1.35547 9.46795 3.04684 11.1593 5.13325 11.1593Z"
-                            fill="#14171A"
-                          />
-                          <path d="M5.1333 3.60376H12.2444V11.1015H5.1333V3.60376Z" fill="#14171A" />
-                          <path
-                            d="M6.51104 13.0482C7.73834 13.0482 8.73326 12.0533 8.73326 10.826C8.73326 9.59868 7.73834 8.60376 6.51104 8.60376C5.28374 8.60376 4.28882 9.59868 4.28882 10.826C4.28882 12.0533 5.28374 13.0482 6.51104 13.0482Z"
-                            fill="#14171A"
-                          />
-                          <path
-                            d="M10.8665 13.0482C12.0938 13.0482 13.0887 12.0533 13.0887 10.826C13.0887 9.59868 12.0938 8.60376 10.8665 8.60376C9.63921 8.60376 8.64429 9.59868 8.64429 10.826C8.64429 12.0533 9.63921 13.0482 10.8665 13.0482Z"
-                            fill="#14171A"
-                          />
-                          <path
-                            d="M10.8665 12.1593C11.6029 12.1593 12.1999 11.5624 12.1999 10.826C12.1999 10.0896 11.6029 9.49268 10.8665 9.49268C10.1302 9.49268 9.5332 10.0896 9.5332 10.826C9.5332 11.5624 10.1302 12.1593 10.8665 12.1593Z"
-                            fill="#67757F"
-                          />
-                          <path
-                            d="M6.51107 12.1593C7.24745 12.1593 7.8444 11.5624 7.8444 10.826C7.8444 10.0896 7.24745 9.49268 6.51107 9.49268C5.77469 9.49268 5.17773 10.0896 5.17773 10.826C5.17773 11.5624 5.77469 12.1593 6.51107 12.1593Z"
-                            fill="#67757F"
-                          />
-                          <path
-                            d="M12.1377 6.13046C12.5312 6.13046 12.8502 5.81148 12.8502 5.41801C12.8502 5.02454 12.5312 4.70557 12.1377 4.70557C11.7443 4.70557 11.4253 5.02454 11.4253 5.41801C11.4253 5.81148 11.7443 6.13046 12.1377 6.13046Z"
-                            fill="#FFCC4D"
-                          />
-                          <path
-                            d="M12.1377 9.00777C12.5312 9.00777 12.8502 8.6888 12.8502 8.29533C12.8502 7.90186 12.5312 7.58289 12.1377 7.58289C11.7443 7.58289 11.4253 7.90186 11.4253 8.29533C11.4253 8.6888 11.7443 9.00777 12.1377 9.00777Z"
-                            fill="#77B255"
-                          />
-                          <path
-                            d="M10.699 7.56905C11.0925 7.56905 11.4115 7.25008 11.4115 6.85661C11.4115 6.46314 11.0925 6.14417 10.699 6.14417C10.3055 6.14417 9.98657 6.46314 9.98657 6.85661C9.98657 7.25008 10.3055 7.56905 10.699 7.56905Z"
-                            fill="#50A5E6"
-                          />
-                          <path
-                            d="M13.5765 7.56905C13.9699 7.56905 14.2889 7.25008 14.2889 6.85661C14.2889 6.46314 13.9699 6.14417 13.5765 6.14417C13.183 6.14417 12.864 6.46314 12.864 6.85661C12.864 7.25008 13.183 7.56905 13.5765 7.56905Z"
-                            fill="#DD2E44"
-                          />
-                          <path
-                            d="M5.65464 6.03175V5.06819C5.65464 4.94419 5.5542 4.84375 5.4302 4.84375H4.73776C4.61376 4.84375 4.51331 4.94419 4.51331 5.06819V6.03175L5.08398 6.60286L5.65464 6.03175ZM4.51287 7.64508V8.60864C4.51287 8.73264 4.61331 8.83308 4.73731 8.83308H5.42976C5.55376 8.83308 5.6542 8.73264 5.6542 8.60864V7.64508L5.08353 7.07397L4.51287 7.64508ZM6.85464 6.26731H5.89109L5.31998 6.83842L5.89109 7.40953H6.85464C6.97864 7.40953 7.07909 7.30864 7.07909 7.18508V6.49219C7.07909 6.36819 6.97864 6.26731 6.85464 6.26731ZM4.27731 6.26731H3.31331C3.18931 6.26731 3.08887 6.36819 3.08887 6.49175V7.18419C3.08887 7.30819 3.18931 7.40864 3.31331 7.40864H4.27687L4.84798 6.83753L4.27731 6.26731Z"
-                            fill="#8899A6"
-                          />
-                        </g>
-                      </g>
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_2_180">
-                        <rect width="16" height="16" fill="white" transform="translate(0.699951 0.469971)" />
-                      </clipPath>
-                      <clipPath id="clip1_2_180">
-                        <rect width="16" height="16" fill="white" transform="translate(0.699951 0.469971)" />
-                      </clipPath>
-                      <clipPath id="clip2_2_180">
-                        <rect width="16" height="16" fill="white" transform="translate(0.699951 0.469971)" />
-                      </clipPath>
-                    </defs>
-                  </svg>
-                  <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clipPath="url(#clip0_2_197)">
-                      <g clipPath="url(#clip1_2_197)">
-                        <g clipPath="url(#clip2_2_197)">
-                          <path
-                            d="M16.7431 7.70558C15.5955 6.03402 13.2231 8.49402 8.89329 8.99402C7.29018 9.17891 5.84573 10.5176 3.98351 10.39C3.21995 10.3376 2.15373 8.14069 1.35551 8.49091C0.944843 8.67136 0.756399 9.27358 1.17862 9.72602L5.86662 15.3198C5.86662 15.3198 6.10484 15.5945 6.90751 15.4042C7.10529 15.4625 10.0786 14.2709 11.7977 11.8856C12.2093 11.3145 12.7 10.8389 13.208 10.4416C14.8573 9.22202 16.6502 8.79714 16.6502 8.79714C16.8795 8.6078 16.9333 8.40647 16.9208 8.2318C16.936 7.94025 16.7431 7.70558 16.7431 7.70558Z"
-                            fill="#5C913B"
-                          />
-                          <path
-                            d="M6.02042 5.03625C4.33909 7.36958 1.39464 8.47492 1.39464 8.47492C0.845307 8.94025 1.30931 9.48869 1.30931 9.48869L5.94842 14.9816C5.94842 14.9816 6.18042 15.2558 6.96175 15.0656C6.96175 15.0656 9.9062 13.9625 11.5871 11.6291C13.32 9.22469 16.4449 8.46558 16.4449 8.46558C16.9938 8.00025 16.5302 7.45091 16.5302 7.45091L11.8911 1.95891C11.8911 1.95891 11.6591 1.68425 10.8778 1.87358C10.8778 1.87358 7.75331 2.63091 6.02042 5.03625Z"
-                            fill="#A7D28B"
-                          />
-                          <path
-                            d="M10.6976 9.13669C12.0476 9.13669 13.1421 8.04228 13.1421 6.69225C13.1421 5.34222 12.0476 4.2478 10.6976 4.2478C9.34759 4.2478 8.25317 5.34222 8.25317 6.69225C8.25317 8.04228 9.34759 9.13669 10.6976 9.13669Z"
-                            fill="#77B255"
-                          />
-                          <path
-                            d="M6.64134 14.6606C6.24978 14.6606 6.10622 14.5148 6.08667 14.4926L1.90489 9.61126C1.89689 9.60192 1.68489 9.35926 1.71067 9.05081C1.72622 8.8637 1.82311 8.69703 1.99822 8.55526L2.02622 8.53837C2.05334 8.5277 4.76533 7.41303 6.28533 5.39837C7.89333 3.26681 10.6671 2.35215 10.6947 2.34326C11.4702 2.16281 11.724 2.42059 11.7511 2.45081L15.8778 7.35926C15.8853 7.36726 16.0969 7.61081 16.0711 7.9197C16.0556 8.10637 15.9587 8.27303 15.7836 8.41481L15.7396 8.43659C15.7124 8.44326 13.0156 9.11348 11.4533 11.1837C9.89822 13.2459 7.18356 14.5801 7.15645 14.593C6.95022 14.6419 6.78045 14.6606 6.64134 14.6606ZM6.25422 14.3464C6.25467 14.3464 6.45511 14.5313 7.08311 14.3855C7.08667 14.3806 9.75378 13.069 11.2769 11.0504C12.8044 9.02592 15.3769 8.30281 15.6622 8.2277C15.7764 8.12948 15.8396 8.02059 15.8498 7.9037C15.8684 7.69037 15.7111 7.50681 15.7098 7.50503L11.5831 2.59615C11.5822 2.59615 11.3831 2.4117 10.7547 2.55748C10.7364 2.5637 8.028 3.45792 6.46311 5.53215C4.96711 7.51481 2.35689 8.64103 2.12622 8.73792C2.00711 8.83792 1.94222 8.94948 1.932 9.06903C1.91422 9.28059 2.07067 9.46326 2.072 9.46503L6.25422 14.3464Z"
-                            fill="#5C913B"
-                          />
-                          <path
-                            d="M10.376 10.3216L10.3733 12.9616L10.5942 13.2238C11.0248 12.8309 11.4386 12.3891 11.7964 11.8922C12.1675 11.3776 12.5986 10.9371 13.0533 10.5651L12.8386 10.3096L10.376 10.3216Z"
-                            fill="#FFAC33"
-                          />
-                          <path
-                            d="M12.8302 10.3002L7.27202 3.71667C6.82047 4.08823 6.38669 4.52156 6.0178 5.03401C5.65736 5.53445 5.2378 5.9749 4.80225 6.36334L5.45202 7.13267L5.45158 7.13312L10.3738 12.9616C10.8094 12.5727 11.224 12.1278 11.5849 11.6269C11.9538 11.1149 12.3871 10.682 12.8382 10.3105L12.8302 10.3002Z"
-                            fill="#FFE8B6"
-                          />
-                          <path
-                            d="M7.35507 10.4944C6.66307 9.67486 5.19818 11.0046 4.7804 10.51C4.57818 10.2704 4.7084 9.95975 4.97418 9.73575C5.42085 9.35797 5.74307 9.57797 5.94529 9.40686C6.08885 9.28597 6.08129 9.13797 5.99596 9.03619C5.79774 8.80197 5.29107 8.92419 4.89729 9.15175L4.70574 8.92508C4.58618 8.78375 4.37463 8.76552 4.23329 8.88508C4.09196 9.00508 4.07418 9.21575 4.19374 9.35708L4.39196 9.59219C4.09107 9.9913 3.98885 10.5211 4.34485 10.942C5.00974 11.7286 6.49285 10.4211 6.95951 10.974C7.12129 11.166 7.07596 11.5322 6.73551 11.8193C6.22529 12.2509 5.76307 12.0486 5.55551 12.2237C5.45418 12.3086 5.43596 12.4704 5.54396 12.5989C5.71596 12.802 6.26396 12.7584 6.79063 12.4304C6.79151 12.4313 6.79151 12.4322 6.79151 12.4331L7.00796 12.6891C7.12751 12.8304 7.33951 12.8477 7.48085 12.7291C7.62263 12.6091 7.63996 12.3975 7.5204 12.2562L7.30396 12.0002C7.30174 11.9975 7.29818 11.9957 7.29551 11.9931C7.65063 11.5584 7.77063 10.9855 7.35507 10.4944Z"
-                            fill="#5C913B"
-                          />
-                          <path
-                            d="M15.3448 14.9535C15.3488 14.95 15.3533 14.9473 15.3573 14.9442C15.3875 14.914 15.411 14.8793 15.4377 14.846C15.4564 14.8229 15.4773 14.8006 15.4946 14.7771C15.5102 14.7549 15.523 14.7322 15.5373 14.7095C16.1684 13.7375 15.755 12.0895 14.5057 10.8398C13.2559 9.58997 11.6075 9.17664 10.6359 9.80819C10.6128 9.82197 10.5902 9.83486 10.5679 9.85086C10.5444 9.8682 10.5217 9.88908 10.4995 9.90731C10.4666 9.93442 10.4319 9.95753 10.4013 9.9882C10.3973 9.9922 10.3946 9.99664 10.3915 10.0006C10.3866 10.0055 10.3808 10.0086 10.3755 10.014L10.3782 10.0162C9.93371 10.4882 9.92838 11.2184 10.3755 11.666C10.8235 12.114 11.5533 12.1078 12.0257 11.6633L12.0306 11.6686C12.0213 11.6775 12.011 11.6833 12.0022 11.6922C11.5315 12.1629 11.5204 12.9135 11.9759 13.37C12.4319 13.8255 13.1835 13.8144 13.6537 13.3438C13.6626 13.3349 13.6684 13.3246 13.6773 13.3153L13.6822 13.3206C13.2377 13.7926 13.2319 14.5229 13.6799 14.9709C14.1275 15.418 14.8573 15.4126 15.3293 14.9682L15.3319 14.9709C15.3364 14.9646 15.3399 14.9589 15.3448 14.9535Z"
-                            fill="#E1E8ED"
-                          />
-                          <path
-                            d="M10.3764 11.6837C10.7791 12.0859 11.408 12.1188 11.8742 11.7997C12.0693 11.4664 12.1253 11.1495 12.1253 11.0504C11.1444 11.7819 10.2689 11.0544 10.0729 10.6193C9.99155 10.9953 10.0902 11.397 10.3764 11.6837ZM13.6204 13.3904C13.7529 13.2042 13.8556 13.0242 13.9036 12.9024C13.2791 13.4748 12.0853 13.0557 11.7236 12.1477C11.5644 12.5699 11.6458 13.0562 11.9773 13.3877C12.4227 13.833 13.148 13.8295 13.6204 13.3904ZM15.3333 14.9882L15.3462 14.9722C15.3507 14.9686 15.3551 14.9659 15.3587 14.9624C15.3893 14.9322 15.4129 14.8975 15.4391 14.8646C15.4582 14.841 15.4787 14.8193 15.496 14.7953C15.512 14.7735 15.5249 14.7504 15.5391 14.7277C15.568 14.6833 15.5836 14.6308 15.608 14.5837C14.4844 15.0864 13.6458 14.2335 13.4107 13.8082C13.2796 14.2157 13.3649 14.6722 13.6813 14.989C14.1284 15.4366 14.8582 15.4313 15.3307 14.9864L15.3333 14.9882Z"
-                            fill="#CCD6DD"
-                          />
-                          <path
-                            d="M7.12251 6.02469L7.13495 6.01492C7.16562 5.98469 7.18917 5.95003 7.2154 5.91714C7.23406 5.89403 7.25451 5.87225 7.27184 5.84825C7.28784 5.82603 7.30073 5.80336 7.31495 5.78069C7.94606 4.80869 7.53229 3.16025 6.28295 1.91092C5.03317 0.661138 3.38518 0.24736 2.41318 0.878471C2.39051 0.892694 2.3674 0.905582 2.34518 0.921582C2.32118 0.938916 2.2994 0.95936 2.27629 0.978027C2.2434 1.00469 2.20873 1.0278 2.17851 1.05847C2.17451 1.06247 2.17184 1.06736 2.16873 1.07092C2.16384 1.07536 2.15762 1.07936 2.15273 1.08425L2.15495 1.08647C1.71051 1.55847 1.70518 2.28869 2.15273 2.73625C2.60029 3.1838 3.33051 3.17847 3.80251 2.73403L3.8074 2.73892C3.79806 2.74736 3.78784 2.75358 3.77895 2.76247C3.30829 3.23314 3.29718 3.9838 3.75318 4.44025C4.20918 4.89669 4.96029 4.88514 5.43095 4.41447C5.43984 4.40558 5.44562 4.39536 5.45451 4.38603L5.4594 4.39092C5.01495 4.86292 5.00917 5.59314 5.45717 6.04069C5.90473 6.48825 6.63451 6.48292 7.10651 6.03803L7.10873 6.04069C7.11362 6.0358 7.11762 6.03003 7.12251 6.02469Z"
-                            fill="#E1E8ED"
-                          />
-                          <path
-                            d="M2.15232 2.7366C2.55499 3.13926 3.18388 3.17215 3.6501 2.85215C3.84521 2.51882 3.90077 2.20238 3.90077 2.10326C2.92032 2.83438 2.04432 2.10638 1.84877 1.67126C1.76743 2.04771 1.8661 2.44993 2.15232 2.7366ZM5.39721 4.44238C5.52921 4.25615 5.63188 4.07704 5.67943 3.95526C5.05454 4.52771 3.86077 4.10815 3.49943 3.20015C3.34032 3.62238 3.42165 4.1086 3.75277 4.44015C4.19899 4.88593 4.92477 4.88193 5.39721 4.44238ZM7.10877 6.04104C7.11365 6.03615 7.11765 6.03038 7.1221 6.02504L7.13454 6.01526C7.16521 5.98504 7.18877 5.95038 7.21499 5.91749C7.23365 5.89438 7.2541 5.8726 7.27143 5.8486C7.28743 5.82638 7.30032 5.80371 7.31454 5.78104C7.34343 5.7366 7.35899 5.68371 7.38343 5.6366C6.25988 6.13926 5.42121 5.28682 5.1861 4.86149C5.05499 5.26904 5.14032 5.72549 5.45677 6.04193C5.90432 6.48949 6.6341 6.48415 7.1061 6.03926L7.10877 6.04104Z"
-                            fill="#CCD6DD"
-                          />
-                        </g>
-                      </g>
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_2_197">
-                        <rect width="16" height="16" fill="white" transform="translate(0.919922 0.469971)" />
-                      </clipPath>
-                      <clipPath id="clip1_2_197">
-                        <rect width="16" height="16" fill="white" transform="translate(0.919922 0.469971)" />
-                      </clipPath>
-                      <clipPath id="clip2_2_197">
-                        <rect width="16" height="16" fill="white" transform="translate(0.919922 0.469971)" />
-                      </clipPath>
-                    </defs>
-                  </svg>
-                </div>
-              </div>*/}
-            </div>
-          </div>
-        </section>
+     
 
         <div className="relative mt-8 scroll-m-4" id="tokenomics">
-          <div className="bg-videoOverlay h-80 sm:h-96 md:h-[450px]">
+          <div className="bg-[url(/flagbg.png)] bg-cover bg-center bg-no-repeat h-80 sm:h-96 md:h-[450px]">
             <div className="max-w-6xl mx-auto px-2.5 h-full">
-              <video
+              {/* <video
                 className="object-cover absolute left-0 w-full -z-[1] h-full"
                 autoPlay
                 muted
                 playsInline
                 loop
                 src={video}
-              ></video>
+              ></video> */}
               <div className="flex justify-center items-center h-full">
                 <div>
                   <h3 className="text-white font-poppins text-[1.375rem] leading-[1.625rem] sm:text-[1.625rem] sm:leading-[1.95rem] md:text-[2rem]  md:leading-[2.4rem] font-semibold text-center">
@@ -469,46 +203,34 @@ function App() {
           </div>
         </div>
 
-        {/* Video Section  */}
-        {/* <div className="relative mt-8 scroll-m-4  bg-cover bg-center bg-no-repeat" id="tokenomics">
-          <div className=" h-80 sm:h-96 md:h-[450px]">
-            <div className="max-w-6xl mx-auto px-2.5 h-full">
-          
-              <div className="flex justify-center items-center h-full">
-                <div>
-                  <h3 className="text-white font-poppins text-[1.375rem] leading-[1.625rem] sm:text-[1.625rem] sm:leading-[1.95rem] md:text-[2rem]  md:leading-[2.4rem] font-semibold text-center">
-                    <span className="text-primary">TOTAL</span> SUPPLY
-                  </h3>
-                  <h3 className="font-poppins text-white font-bold text-[2rem] leading-[2.5rem] sm:text-[5rem] sm:leading-[6.25rem]">
-                    1,000,000,000
-                  </h3>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
-        {/* End Video Section  */}
 
-       <div className=" bg-[url(/bgGradient.png)] bg-cover bg-center bg-no-repeat ">   
+
+       <div className="  ">   
         <div className="text-center pt-10 pb-4">
           <h3 className="font-bold text-[2rem] leading-[2.5rem] sm:text-[3.125rem] sm:leading-[3.906rem] md:text-[5rem] md:leading-[6.25rem] outline-title font-poppins">
             BUY & JOIN
           </h3>
         </div>
         <div className="flex items-center justify-center bg-center bg-cover flex-column md:mt-[5px] buyImg">
-          <img src={kidImg} alt="" style={{borderRadius:'10px'}}/>
+          <img src={kidImg} alt="" style={{borderRadius:'10px', width:'100%'}}/>
         </div>
+        <div className=" textCenter md:space-x-1 pt-2 maxWidth mx-auto p-4">
+                 
+                 <p className="font-roboto text-base leading-6 uppercase text-white tracking-[0.1rem] mb-4 mt-5">
+                 WHISPERS OF COGNITIVE DECLINE ECHO THROUGH THE HALLS OF POWER, LEAVING MANY TO WONDER IF THE OVAL OFFICE HAS TURNED INTO A SENIOR CENTER WITH EXECUTIVE PRIVILEGES. LITTLE DO THE PUBLIC KNOW, PRESIDENT JOLD BIDEN IS SECRETLY TAKING ORDERS FROM THE PUPPET MASTER HIMSELF, BARACK OBAMA. THE REAL POWER BEHIND THE PODIUM, OBAMA PULLS THE STRINGS WHILE BIDEN ATTEMPTS TO NAVIGATE THE COMPLEXITIES OF INTERNATIONAL DIPLOMACY LIKE A GPS WITHOUT A SIGNAL. AS THE NATION COLLECTIVELY WONDERS WHY THE PRESIDENT SEEMS TO BE PLAYING A GAME OF POLITICAL MARCO POLO, LITTLE DO THEY SUSPECT THE HIDDEN CHOREOGRAPHER ORCHESTRATING THE PRESIDENTIAL PUPPET SHOW.
+                 </p>
+       </div>
         <div className="flex items-center justify-center ">
         <a href="https://raydiumswap.io" className="btnGreen" target="_blank">Buy on RaydiumSwap</a>
         </div>
       
 
         {/* Faq Section  */}
-        <div className="pb-[60px] px-4 sm:px-0">
+        <div className="pb-[60px] px-4 sm:px-0" style={{}}>
           <div className="flex flex-col gap-5 item-center justify-center">
             <div className="flex item-center justify-center">
               <div className="rounded-md p-2.5 border-primary w-15">
-                <img src="/Solana-Logo.png" alt="Solana-Logo-200px-150x150" className="w-15" />
+                <img src="/solanaLogo.png" alt="Solana-Logo-200px-150x150" className="w-15" />
               </div>
             </div>
             <div className="flex items-center justify-center">
@@ -672,20 +394,21 @@ function App() {
       </main>
       <footer className="bg-primary">
         <div className="max-w-6xl mx-auto px-2.5">
-          <div className="sm:py-16 py-12 px-4 sm:px-0">
+          {/* <div className="sm:py-16 py-12 px-4 sm:px-0">
             <p className="text-white font-roboto text-base leading-[1.6rem]">
             Please be advised that Baby Andrew Tate is a meme token created for entertainment purposes and is not affiliated with or endorsed by Andrew Tate. While Baby Andrew Tate may reference or incorporate elements related Andrew Tate’s persona, image, or likeness, it does not imply any direct endorsement,partnership, or approval by Tate. Any resemblance or association between Baby Andrew Tate and Andrew Tate is purely coincidental and intended for satirical or humorous purposes.
             </p>
-          </div>
+          </div> */}
           <div className="sm:flex-row flex-col flex items-center justify-between py-7 space-y-4 sm:space-y-0">
             <a href="/">
               <h1 className="font-bold font-poppins text-white text-[1.875rem] leading-[2.344rem] sm:text-[2.188rem] sm:leading-[2.734rem] md:text-[2.625rem] md:leading-[3.281rem]">
-              Baby Andrew Tate
+              J<span style={{color:'rgb(232, 27, 35)'}}>old</span> Biden
+
               </h1>
             </a>
             <div className="flex items-center justify-center space-x-1.5">
               <a
-                href="https://t.me/BabyAndrewTate"
+                href="https://t.me/joldbiden"
                 target="_blank"
                 rel="noreferrer"
                 className="transition-all ease-in-out duration-500"
@@ -700,7 +423,7 @@ function App() {
                 </div>
               </a>
               <a
-                href="https://twitter.com/babyandrewtate"
+                href="https://twitter.com/JoldBiden"
                 target="_blank"
                 rel="noreferrer"
                 className="transition-all ease-in-out duration-500"

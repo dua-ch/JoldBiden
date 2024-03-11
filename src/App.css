@@ -1,5 +1,5 @@
 .outline-title {
-  text-shadow: 1px 1px 0 #00EC46, -1px -1px 0 #00EC46, 1px -1px 0 #00EC46, -1px 1px 0 #00EC46, 1px 1px 0 #00EC46;
+  text-shadow: 1px 1px 0 #00aef3 , -1px -1px 0 #00aef3 , 1px -1px 0 #00aef3 , -1px 1px 0 #00aef3 , 1px 1px 0 #00aef3 ;
 }
 
 .btnGreen{
@@ -19,8 +19,7 @@
  }
  
  .btnGreen:hover{
-  background: #00EC46;
-  border-color: #00EC46;
+  background: #00AEF3 ;
  }
  
  .flex-column{
@@ -36,11 +35,11 @@
  }
 
  .bg-primary{
-   background: #00EC46 !important;
+   background: #00AEF3 !important;
  }
 
  .text-primary{
-  color: #00EC46 !important;
+  color: #00aef3 !important;
  }
 
  .textCenter{
@@ -52,7 +51,7 @@
  }
 
  .bgGreen{
-  background: #002D0D;
+  background:#00AEF340;
  }
 
 .overlay{
@@ -71,7 +70,7 @@
 
  .buyImg {
   max-width: 696px;
-  height: 300px;
+  height: 400px;
   margin-left: auto;
   margin-right: auto
  }
@@ -83,6 +82,18 @@
   object-fit: cover
  }
 
+ .flex-column {
+  margin-bottom: 0;
+ }
+
+ .maxWidth{
+  max-width: 955px;
+  margin-bottom: 80px;
+ }
+
+ .border-primary{
+  border-color: blue;
+ }
 
 
  @media (max-width:767px){
@@ -95,6 +106,10 @@
   .h-screen {
     height: 85vh !important;
 }
+
+.maxWidth{
+  margin-bottom: 30px;
+}
  }
 
   
@@ -103,6 +118,10 @@
 
   .buyImg {
     height: 200px;
+  }
+
+  .minHeight{
+    height: 300px !important;
   }
  }
  
