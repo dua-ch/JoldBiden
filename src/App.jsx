@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Graphics, TabletGraphic } from "./assets/constant";
 import "./App.css";
 import kidImg from '../public/kidImg.png';
-import bannerImg from '../public/newtokenimage.jpg'
+import bannerImg from '../public/bannerImg.png'
 import video from '../public/video.mp4'
 function App() {
   const [q1, setq1] = useState(false);
@@ -89,7 +89,7 @@ function App() {
         <section style={{paddingTop:'50px'}}>
         
             <div style={{height:'500px'}} className="minHeight">
-            <img src='../public/bannerImg.png' alt="" style={{ width:'100%', height:'100%', objectFit:'cover'}}/>
+            <img src={bannerImg} alt="" style={{ width:'100%', height:'100%', objectFit:'cover'}}/>
             </div>
             <div className=" w-full" style={{position:'relative', zIndex:'1',marginTop:'-50px' , padding:'0 20px'}} > 
               <article className="max-w-xl sm:max-w-xl mx-auto">
