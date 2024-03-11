@@ -3,7 +3,8 @@ import { Graphics, TabletGraphic } from "./assets/constant";
 import "./App.css";
 import kidImg from '../public/kidImg.png';
 import bannerImg from '../public/bannerImg.png'
-import video from '../public/video.mp4'
+import video from '../public/video.mp4';
+import bannerHd from '../public/bannerHd.png';
 function App() {
   const [q1, setq1] = useState(false);
   const [q2, setq2] = useState(false);
@@ -93,7 +94,7 @@ function App() {
             </div>
             <div className=" w-full" style={{position:'relative', zIndex:'1',marginTop:'-50px' , padding:'0 20px'}} > 
               <article className="max-w-xl sm:max-w-xl mx-auto">
-                 <img src="../public/bannerHd.png" alt="" style={{ width:'100%'}}/>
+                 <img src={bannerHd} alt="" style={{ width:'100%'}}/>
                  <div className=" textCenter md:space-x-1 pt-2" id="about">
                  
                  <p className="font-roboto text-base leading-6 uppercase text-white tracking-[0.1rem] mb-4 mt-5">
